@@ -1,6 +1,6 @@
 html, body {
   margin: 0px;
-  background-color: rgb(51,25,0)
+  background-color: rgb(51,25,0);
 }
 
 h1 {
@@ -43,6 +43,7 @@ h2 {
   width: 100%;
   font-size: 40px;
   margin: 0;
+  background-color: transparent;
 }
 
 .clearfix {
@@ -83,6 +84,16 @@ h2 {
 
 }
 
+.text-class{
+position: relative;
+top: -180px;
+}
+
+.image-class{
+  position: relative;
+  margin: 30px 0;
+}
+
 .list-container {
   margin-top: 5%;
 }
@@ -117,4 +128,12 @@ h2 {
 .hidden {
   display: none;
   visibility: hidden;
+}
+
+.enmarcada{
+border:10px solid black; /* ancho - tipo - color */
+padding:10px; /* distancia entre la img y el borde */
+margin:5px;
+width:243px;
+background-color: rgb(51,25,0);
 }
