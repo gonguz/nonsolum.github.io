@@ -2,30 +2,13 @@
 <html>
 	<head>
 		<title>NonSolum: A Serious-Train project</title>
+		<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
 		<link rel="stylesheet" href="./styles/main.css" />
 		<link rel="stylesheet" href="./styles/header.css" />
+<!-- end www.htmlcommentbox.com -->
 
-		<style>
-		#TextPuma{font-size:25px; position:relative; top: -210px;}
-		#TextAlex{font-size:25px; position:relative; top: 130px;}
-		#imageAlex{position:relative; left: 150px; bottom: 100px;}
-		#TextJose{font-size:25px; position:relative; bottom: 190px;}
-		#imageAndres{position:relative;  bottom: 100px;}
-		#TextAndres{font-size:25px; position:relative; top: -340px;}
-		#imageGonzalo{position:relative; bottom: 200px;}
-		#TextGonzalo{font-size:25px; position:relative; top: -410px;}
-		#imageMarcos{position:relative; bottom: 340px;}
-		#TextMarcos{font-size:25px; position:relative; top: -630px;}
-		#imageToscana{position:relative; left: 150px; bottom: 150px;}
-		#TextToscana{font-size:25px; position:relative; top: 0px;}
-		#imageRober{position:relative; left: 150px; bottom: 300px;}
-		#TextRober{font-size:25px; position:relative; top: -50px;}
-		#imageBorja{position:relative; left: 150px; bottom: 400px;}
-		#TextBorja{font-size:25px; position:relative; top: -200px;}
-
-		</style>
-	</head>
 	<body>
+		<button id="myBtn" title="Go to top">Top</button>
     <header>
       <ul class="navbar">
 				<li class="navbar-link">
@@ -48,16 +31,17 @@
   	<div>
   		<section>
 				<h1>Non Solum</h1>
-  			<img class="main-image" src="./img/mainImage.png" alt="Imagen Principal">
+  			<img class="main-image" src="./img/imagenFondo.png" alt="Imagen Principal">
   		</section>
   		<section>
   			<h2 id ="history">Historia</h2>
-				<div class="history-container divided-container clearfix">
-					<div>
-						imagen
+				<div class="history-container divided-container">
+					<div class="history-image">
 					</div>
-					<div>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<div class="top-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
 					</div>
 				</div>
 				<div class ="bottom-text">
@@ -94,77 +78,120 @@
 				<div class="team-image">
 					<img  src="./img/prueba.jpg" alt="Imagen Equipo">
 				</div>
-				<div class="team-descriptions clearfix">
+				<div class="team-descriptions">
 					<div class="divided-container">
 						<div>
 							<img  src="./img/puma2.jpg" alt="Puma Foto" class="enmarcada"/>
 						</div>
-						<div  id="TextPuma">
-							Puma López Acero: "Soy todo un fiera, no se me resiste ninguna presa. Soy carnivoro, aunque de vez en cuando le doy al pescado, un saludo."
+						<div>
+							<h3>Puma López Acero</h3>
+							<p>
+								"Soy todo un fiera, no se me resiste ninguna presa. Soy carnivoro, aunque de vez en cuando le doy al pescado, un saludo."
+							</p>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div id="TextAlex">
-							Alex Ortega Álvarez: "Soy el master programmer, cualquier duda me preguntais. Ademas, cuando quieras me llamas y nos echamos unas magic o un tenis, valgo para todo, un saludo."
+						<div>
+							<h3>
+								Alex Ortega Álvarez
+							</h3>
+							<p>
+								"Soy el master programmer, cualquier duda me preguntais. Ademas, cuando quieras me llamas y nos echamos unas magic o un tenis, valgo para todo, un saludo."
+							</p>
 						</div>
-						<div class="image-class" id="imageAlex">
+						<div class="image-class">
 							<img  src="./img/alex.jpeg" alt="Alex Foto" class="enmarcada"/>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="image-class" id="imageJose">
+						<div class="image-class">
 							<img  src="./img/jose.jpeg" alt="Jose Foto" class="enmarcada"/>
 						</div>
-						<div class="text-class" id="TextJose">
-							José Morales Jaurrieta: "Técnico experto en creacion y diseño de vagones. Presentador oficial de Serious Train. El resto lo define mi foto, un saludo."
+						<div>
+							<h3>
+								José Morales Jaurrieta
+							</h3>
+							<p>
+								"Técnico experto en creacion y diseño de vagones. Presentador oficial de Serious Train. El resto lo define mi foto, un saludo."
+							</p>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="text-class" id="TextToscana">
-							Cesar Toscana Arroyo: "Extremo defensor de los personajes de color en los videojuegos, y de todo aquello que sea bonito. Soy de Santander, mi plato favorito es la anchoa del Cantábrico, un saludo."
+						<div>
+							<h3>
+								Cesar Toscana Arroyo
+							</h3>
+							<p>
+								"Extremo defensor de los personajes de color en los videojuegos, y de todo aquello que sea bonito. Soy de Santander, mi plato favorito es la anchoa del Cantábrico, un saludo."
+							</p>
 						</div>
-						<div class="image-class" id="imageToscana">
+						<div class="image-class">
 							<img  src="./img/toscana.jpeg" alt="Toscana Foto" class="enmarcada"/>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="image-class" id="imageAndres">
+						<div class="image-class">
 							<img  src="./img/andres.jpeg" alt="Andres Foto" class="enmarcada"/>
 						</div>
-						<div class="text-class" id="TextAndres">
-							Andrés Puente Rodríguez: "Historiador de Serious-Train. También soy BoyScout de vez en cuando. Además le doy al boxeo. Cuando quieras te reto Alex, un saludo."
+						<div>
+							<h3>
+								Andrés Puente Rodríguez
+							</h3>
+							<p>
+								"Historiador de Serious-Train. También soy BoyScout de vez en cuando. Además le doy al boxeo. Cuando quieras te reto Alex, un saludo."
+							</p>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="text-class" id="TextRober">
-							Roberto Alcázar Morales: "Encargado de las animaciones y presentaciones en este proyecto. Soy un gran amante de la cerveza, de hecho, puede que ahora me esté tomando una, un saludo."
+						<div>
+							<h3>
+								Roberto Alcázar Morales
+							</h3>
+							<p>
+								"Encargado de las animaciones y presentaciones en este proyecto. Soy un gran amante de la cerveza, de hecho, puede que ahora me esté tomando una, un saludo."
+							</p>
 						</div>
-						<div class="image-class" id="imageRober">
+						<div class="image-class">
 							<img  src="./img/rober.jpeg" alt="Rober Foto" class="enmarcada"/>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="image-class" id="imageGonzalo">
+						<div class="image-class">
 							<img  src="./img/gonzalo.jpg" alt="Gonzalo Foto" class="enmarcada"/>
 						</div>
-						<div class="text-class" id="TextGonzalo">
-							Gonzalo Guzmán del Río: "Mi apellido lo dice todo, soy un buen hombre. Integrante del equipo de programación. Amante del fútbol, puede que ahora esté viendo un partido de la liga de Yibuti del año 2005, un saludo."
+						<div>
+							<h3>
+								Gonzalo Guzmán del Río
+							</h3>
+							<p>
+								"Mi apellido lo dice todo, soy un buen hombre. Integrante del equipo de programación. Amante del fútbol, puede que ahora esté viendo un partido de la liga de Yibuti del año 2005, un saludo."
+							</p>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="text-class" id="TextBorja">
-							Borja Cano Álvarez: "Integrante del equipo de programación. Hice el instalador y cambié el código entero. Sé tocar la guitarra y hago un pisto que te cagas. A Alex y Gonzalo no les gusta, un saludo."
+						<div>
+							<h3>
+								Borja Cano Álvarez
+							</h3>
+							<p>
+								"Integrante del equipo de programación. Hice el instalador y cambié el código entero. Sé tocar la guitarra y hago un pisto que te cagas. A Alex y Gonzalo no les gusta, un saludo."
+							</p>
 						</div>
-						<div class="image-class" id="imageBorja">
+						<div class="image-class">
 							<img  src="./img/borja.jpeg" alt="Borja Foto" class="enmarcada"/>
 						</div>
 					</div>
 					<div class="divided-container">
-						<div class="image-class" id="imageMarcos">
+						<div class="image-class">
 							<img  src="./img/marcos.jpeg" alt="Marcos Foto" class="enmarcada"/>
 						</div>
-						<div class="text-class" id="TextMarcos">
-							Marcos Llinares Montes: "Canario en Madrid. Encargado de los fondos del juego y de los menús. Amante de los vape, mi sabor favorito actualmente el de cacahuete, un saludo. "
+						<div>
+							<h3>
+								Marcos Llinares Montes
+							</h3>
+							<p>
+								"Canario en Madrid. Encargado de los fondos del juego y de los menús. Amante de los vape, mi sabor favorito actualmente el de cacahuete, un saludo. "
+							</p>
 						</div>
 					</div>
 				</div>
@@ -172,10 +199,10 @@
 
   	</div>
     <footer id="footer">
- <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
- <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb" src="./js/comment.js"></script>
-  </footer>
+			<h3>Contáctanos</h3><!-- start Contact Box -->
+<script data-sil-id='592b1082a43fd60015db4f5f'> (function() {var d = document, w = window, l = window.location,p = l.protocol == 'file:' ? 'http://' : '//';if (!w.WS) w.WS = {}; c = w.WS;var m=function(t, o){  var e = d.getElementsByTagName('script'); e=e[e.length-1];  var n = d.createElement(t); if (t=='script') {n.async=true;} for (k in o) n[k] = o[k];  e.parentNode.insertBefore(n, e)};   m('script', {      src: p+'bawkbox.com/widget/contact/592b1082a43fd60015db4f5f?page='+encodeURIComponent(l+''),      type: 'text/javascript'  });  c.load_net = m;})();</script><div class='sil-widget-contact sil-widget' id='sil-widget-592b1082a43fd60015db4f5f'<a href='https://htmlcontactbox.com'>Contact Box is loading...</a></div>
+<!-- end Contact Box -->
+  	</footer>
 		<script type="text/javascript" src="./js/main.js"></script>
 	</body>
 </html>

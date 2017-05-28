@@ -37,9 +37,26 @@
       mdaContent.classList.add('hidden');
       vagonesContent.classList.remove('hidden');
     });
-  }
+  };
+
+  var initializeScrollUpButton = function(){
+    var goUpButton = document.querySelector('#myBtn');
+
+    window.addEventListener('scroll', function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+      } else {
+          document.getElementById("myBtn").style.display = "none";
+      }
+    });
+
+    goUpButton.addEventListener('click', function(){
+      document.body.scrollTop = 0; // For Chrome, Safari and Opera
+      document.documentElement.scrollTop = 0; // For IE and Firefox
+    });
+  };
 
   initializeTab();
-
+  initializeScrollUpButton();
 
 })();
