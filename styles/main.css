@@ -71,19 +71,7 @@ h4 {
   vertical-align: middle;
 }
 
-#contenedor_principal{
-width:1024px;
-height:auto;
-position:relative;
-}
-.contenedor_imagen_texto{
-width:1024px;
-height:300px;
-position:relative;
-left: 130px;
-display:inline-block;
-margin: 20px auto;
-}
+
 .imagen, .texto{
 width:100%;
 height:100%;
@@ -260,4 +248,17 @@ margin: 5% 0;
   position: relative;
   top:475px;
   left: 320px;
+}
+.tamanyo{
+  width: 200px;
+  height: 100% ;
+}
+
+.mda-class{
+  margin: 0px 15px;
+  padding: 80px 0px;
+}
+
+.estetica{
+
 }

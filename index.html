@@ -8,6 +8,10 @@
 <!-- end www.htmlcommentbox.com -->
 	<style>
 	#PosImagen{position:relative; left: 150px;}
+	#setPosLeft{position: relative; left: 120px;}
+	#setPosRight{position: relative; left: 170px;}
+	#slenderPos{position: relative; left: 250px; margin: 20px 15px;}
+	#basicoPos{position: relative; left: 425px; top: 40px; margin: 20px 15px;}
 	</style>
 	<link rel="shortcut icon" href="./img/icon2.png"/>
 	<body>
@@ -56,7 +60,7 @@
   		</section>
   		<section class="correct-position">
   			<h2 id="game">Nuestro Juego</h2>
-				<iframe  src="https://www.youtube.com/embed/0LtkwQyPHZw" class="video-responsive" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+				<iframe  src="https://www.youtube.com/embed/Af9KB2GPKao" class="video-responsive" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 				<div class="list-container">
 					<ul class="navbar">
 						<li class="our-game-item active" id="mda">
@@ -70,43 +74,188 @@
 						</li>
 					</ul>
 				</div>
-				<div id="mda-content">
-					MDA
-				</div>
-				<div id="vagones-content" class="hidden">
-					<div id="contenedor_principal">
-						<!--Primera Imagen-->
-						<div class="contenedor_imagen_texto">
-						<div class="imagen"><img src="./img/vagon vacio.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						<div class="imagen"><img src="./img/vagon bloqueado.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						<div class="imagen"><img src="./img/vagon torreta.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
+				<div id="mda-content" class="mda-class">
+					<div>
+						<strong>MECÁNICAS:</strong>
+						<p>
+							En "NON SOLUM" controlarás a Sam McConaughey. Tu objetivo será el de limpiar Mount Horeb de la terrible plaga que asola la ciudad. Para ello tendrás que deshacerte de numerosas oleadas de zombies
+							los cuáles te someterán a inmensas dificultades. Para conseguirlo, dispondrás de armas y vagones adherentes que te harán tal dichosa tarea mucho más sencilla. Si estás preparado, embarcate en el "Ubi Trinus".
+							A pesar de que muchos zombies te pondrán en dificultades, otros te ayudarán en esta aventura. Es el caso del Slender.
+						</p>
+					</div>
+					<div>
+						<img  src="./img/slender.png" alt="Jose Foto" id="slenderPos"/>
+						<img  src="./img/basico.png" alt="Jose Foto" id="basicoPos"/>
+					</div>
+					<div>
+						<strong>DINÁMICAS:</strong>
+						<p>
+							En el juego podrás disfrutar de tres modos de juego: <strong>En primer lugar, el modo Historia</strong> en el cuál guiarás a nuestro protagonista Sam en su ardua tarea de salvar al país de la epidemia que lo asola.
+							En este modo tendrás la posibilidad de acceder a la tienda. En ella podrás adquirir vagones que colocarás en tu tren y armas. Cada objeto tiene su precio. El dinero se conseguirá matando a los enemigos.
+						</p>
+						<div class="team-image">
+							<img src="./img/tienda.png"/>
 						</div>
-
-						<!--Segunda Imagen-->
-						
-						<div class="contenedor_imagen_texto">
-						<div class="imagen"><img src="./img/vagon regenerador.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						<div class="imagen"><img src="./img/vagon escudo.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						<div class="imagen"><img src="./img/vagon lanzallamas.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						</div>
-
-<!--tercera Imagen-->
-						<div class="contenedor_imagen_texto">
-						<div class="imagen"><img src="./img/vagon succionador.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						<div class="imagen"><img src="./img/vagon laser.png"></div>
-						<div class="texto">Texto debajo de la imagen</div>
-						</div>
+						<p>
+						<strong>En segundo lugar encontramos el modo supervivencia</strong> en el que tu objetivo será aguantar el mayor número posible de oleadas de enemigos. A medida que vayas pasando cada ronda,
+						Sam dispondrá de nuevas armas. Adéntrate en el modo Supervivencia y conoce el lado más frenético de "NON SOLUM".<br />
+						<br />
+						<strong>En último lugar, el modo Extremo</strong>. En este modo, Sam llevará el arma más potente de la tienda. La cantidad de enemigos por ronda superará casi exponencialmente la cantidad de zombies por oleada en el modo Supervivencia.
+						Sin embargo, a pesar de las inmensas oleadas de zombies no podrás sentirte débil, ya que a medida que avances se colocarán vagones que permitirán arreglar tu tren.
+						</p>
+					</div>
+					<div class="team-image">
+						<img src="./img/trenFull.png"/>
+					</div>
+					<div>
+						<strong>ESTÉTICA:</strong>
+						El juego está ambientado en Mount Horeb, un pequeño pueblo Estadounidense,
+						 cuya principal industria y fuente de ingresos es la ferroviaria.
+						 La estética es Western y medieval muy cercana al siglo XIX, etapa de la Revolución Industrial.
 					</div>
 				</div>
+				<div id="vagones-content" class="hidden">
+					<div class="team-descriptions">
+						<div class="divided-container">
+							<div id="setPosLeft">
+								<img  src="./img/vagon torreta.png" alt="Puma Foto"/>
+							</div>
+							<div>
+								<h3>Vagón Automático</h3>
+								<p>
+									Este vagón va a ser uno de tus mejores amigos durante la aventura. Disparará por tí cuando estés en apuros.
+								</p>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3>
+									Vagón Escudo
+								</h3>
+								<p>
+									"Este vagón es imprescindible". Tal y como dice Alejandro, este vagón es muy importante para sobrevivir. Sin embargo, ¿sabrías
+									colocarlo correctamente?.
+								</p>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/vagon escudo.png" alt="Alex Foto"/>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div class="image-class" id="setPosLeft">
+								<img  src="./img/vagon laser.png" alt="Jose Foto"/>
+							</div>
+							<div>
+								<h3>
+									Vagón Laser
+								</h3>
+								<p>
+									Quizá uno de los vagones más infravalorados. A pesar de esto, yo te puedo decir que te salvará el cuello en muchas ocasiones.
+								</p>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3>
+									Vagón Succionador
+								</h3>
+								<p>
+									El vagón favorito del equipo de desarrollo. Gracias a él, las pruebas de balanceo fueron más sencillas. Pruebalo y verás.
+								</p>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/vagon succionador.png" alt="Toscana Foto"/>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div class="image-class" id="setPosLeft">
+								<img  src="./img/vagon regenerador.png" alt="Andres Foto"/>
+							</div>
+							<div>
+								<h3>
+									Vagón Recuperador
+								</h3>
+								<p>
+									Su propio nombre lo dice, no hay mayor misterio. Por si acaso, este vagón recupera la vida del tren siempre y cuando estés encima de él.
+								</p>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3>
+									Vagón Lanzallamas
+								</h3>
+								<p>
+									Con este vagón podrás quemar las cabelleras de los enemigos. Disfrutarás viendo como arden!.
+								</p>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/vagon lanzallamas.png" alt="Rober Foto"/>
+							</div>
+						</div>
+					</div>
+					</div>
 				<div id="armas-content" class="hidden">
-					Armas
+					<div class="team-descriptions">
+						<div class="divided-container">
+							<div id="setPosLeft">
+								<img  src="./img/revolver bueno.png" alt="Puma Foto" width="250" height="100"/>
+							</div>
+							<div>
+								<h3 id="setPosRight">REVÓLVER</h3>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3 id="setPosLeft">
+									ESCOPETA
+								</h3>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/escopeta.png" alt="Alex Foto" width="210" height="70"/>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div class="image-class" id="setPosLeft">
+								<img  src="./img/francoDictador.png" alt="Jose Foto"/>
+							</div>
+							<div>
+								<h3 id="setPosRight">
+									FRANCOTIRADOR
+								</h3>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3 id="setPosLeft">
+									METRALLETA
+								</h3>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/metralleta.png" alt="Toscana Foto"/>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div class="image-class" id="setPosLeft">
+								<img  src="./img/minigun.png" alt="Andres Foto"/>
+							</div>
+							<div>
+								<h3 id="setPosRight">
+									MINIGUN
+								</h3>
+							</div>
+						</div>
+						<div class="divided-container">
+							<div>
+								<h3 id="setPosLeft">
+									CAÑÓN
+								</h3>
+							</div>
+							<div class="image-class" id="PosImagen">
+								<img  src="./img/cañonazo.png" alt="Rober Foto"/>
+							</div>
+						</div>
+					</div>
 				</div>
   		</section>
   		<section class="correct-position">
