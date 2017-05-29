@@ -211,13 +211,16 @@ to {background-position: -20000px 0;}
 }
 
 .video-responsive {
-position: relative;
-left: 230px;
 padding-top: 15px;
 padding-bottom: 20px; /* 16/9 ratio */
-height: 2;
 width: 560px;
 height: 315px;
+text-align: right;
+margin: 0 0;
+}
+
+.video-responsive iframe{
+    width: 70%;
 }
 
 .link-h1{
