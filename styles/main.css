@@ -215,8 +215,10 @@ padding-top: 15px;
 padding-bottom: 20px; /* 16/9 ratio */
 width: 560px;
 height: 315px;
+position: relative;
+left: 210px;
 text-align: right;
-margin: 0 0;
+margin: 5% 0;
 }
 
 .video-responsive iframe{
@@ -230,5 +232,5 @@ margin: 0 0;
 .footer-text{
   position: relative;
   top:475px;
-  left: 300px;
+  left: 320px;
 }
