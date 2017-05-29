@@ -2,10 +2,13 @@
 <html>
 	<head>
 		<title>NonSolum: A Serious-Train project</title>
-		<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 		<link rel="stylesheet" href="./styles/main.css" />
 		<link rel="stylesheet" href="./styles/header.css" />
 <!-- end www.htmlcommentbox.com -->
+	<style>
+	#PosImagen{position:relative; left: 150px;}
+	</style>
 
 	<body>
 		<button id="myBtn" title="Go to top">Top</button>
@@ -31,24 +34,26 @@
   	<div>
   		<section>
 				<h1>Non Solum</h1>
-  			<img class="main-image" src="./img/imagenFondo.png" alt="Imagen Principal">
+  			<img class="main-image" id="cloud-scroll">
+				<img class="tren-Image" src="./img/tren.png">
   		</section>
-  		<section>
+  		<section class="correct-position">
   			<h2 id ="history">Historia</h2>
 				<div class="history-container divided-container">
 					<div class="history-image">
 					</div>
 					<div class="top-text">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							La vida antes del mayor desastre epidémico de la humanidad era de lo más tranquila. En concreto esta tranquilidad resaltaba en Mount Hareb, una ciudad caracterizada por ser el epicentro de la industrialización, y sobre todo por su industria ferroviaria. A ella, acudía todo aquel que quería cumplir sus sueños, pues había grandes oportunidades para prosperar. Una de estas personas era Sam McConaughey, un granjero estadounidense hastiado del campo, el cuál quería emprender
+							un viaje en ferrocarril que le llevase a descubrir los lugares más inhóspitos del territorio americano. Sam pensó que la vida al final le daba una oportunidad, sin embargo la peste llegó inesperadamente al país...
 						</p>
 					</div>
 				</div>
 				<div class ="bottom-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Antes de que nadie pudiese hacer nada, los muertos vivientes plagaban las calles, sembrando el pánico y terror de la gente. Sam no tuvo otra opción que hacer frente a la terrible solución. El destino de Sam ya está escrito, solo tú serás capaz de cambiarlo. ¿Te atreves?.
 				</div>
   		</section>
-  		<section>
+  		<section class="correct-position">
   			<h2>Nuestro Juego</h2>
 				<div class="list-container">
 					<ul class="navbar">
@@ -73,7 +78,7 @@
 					Armas
 				</div>
   		</section>
-  		<section>
+  		<section class="correct-position">
   			<h2 id="team" >Serious Train Team</h2>
 				<div class="team-image">
 					<img  src="./img/prueba.jpg" alt="Imagen Equipo">
@@ -99,7 +104,7 @@
 								"Soy el master programmer, cualquier duda me preguntais. Ademas, cuando quieras me llamas y nos echamos unas magic o un tenis, valgo para todo, un saludo."
 							</p>
 						</div>
-						<div class="image-class">
+						<div class="image-class" id="PosImagen">
 							<img  src="./img/alex.jpeg" alt="Alex Foto" class="enmarcada"/>
 						</div>
 					</div>
@@ -125,7 +130,7 @@
 								"Extremo defensor de los personajes de color en los videojuegos, y de todo aquello que sea bonito. Soy de Santander, mi plato favorito es la anchoa del Cantábrico, un saludo."
 							</p>
 						</div>
-						<div class="image-class">
+						<div class="image-class" id="PosImagen">
 							<img  src="./img/toscana.jpeg" alt="Toscana Foto" class="enmarcada"/>
 						</div>
 					</div>
@@ -151,7 +156,7 @@
 								"Encargado de las animaciones y presentaciones en este proyecto. Soy un gran amante de la cerveza, de hecho, puede que ahora me esté tomando una, un saludo."
 							</p>
 						</div>
-						<div class="image-class">
+						<div class="image-class" id="PosImagen">
 							<img  src="./img/rober.jpeg" alt="Rober Foto" class="enmarcada"/>
 						</div>
 					</div>
@@ -164,7 +169,7 @@
 								Gonzalo Guzmán del Río
 							</h3>
 							<p>
-								"Mi apellido lo dice todo, soy un buen hombre. Integrante del equipo de programación. Amante del fútbol, puede que ahora esté viendo un partido de la liga de Yibuti del año 2005, un saludo."
+								"Mi apellido lo dice todo, soy un buen hombre. Integrante del equipo de programación. Amante del fútbol, puede que ahora esté viendo un partido de la liga de Djibouti del año 2005, un saludo."
 							</p>
 						</div>
 					</div>
@@ -177,7 +182,7 @@
 								"Integrante del equipo de programación. Hice el instalador y cambié el código entero. Sé tocar la guitarra y hago un pisto que te cagas. A Alex y Gonzalo no les gusta, un saludo."
 							</p>
 						</div>
-						<div class="image-class">
+						<div class="image-class" id="PosImagen">
 							<img  src="./img/borja.jpeg" alt="Borja Foto" class="enmarcada"/>
 						</div>
 					</div>
@@ -198,9 +203,9 @@
   		</section>
 
   	</div>
-    <footer id="footer">
-			<h3>Contáctanos</h3><!-- start Contact Box -->
-<script data-sil-id='592b1082a43fd60015db4f5f'> (function() {var d = document, w = window, l = window.location,p = l.protocol == 'file:' ? 'http://' : '//';if (!w.WS) w.WS = {}; c = w.WS;var m=function(t, o){  var e = d.getElementsByTagName('script'); e=e[e.length-1];  var n = d.createElement(t); if (t=='script') {n.async=true;} for (k in o) n[k] = o[k];  e.parentNode.insertBefore(n, e)};   m('script', {      src: p+'bawkbox.com/widget/contact/592b1082a43fd60015db4f5f?page='+encodeURIComponent(l+''),      type: 'text/javascript'  });  c.load_net = m;})();</script><div class='sil-widget-contact sil-widget' id='sil-widget-592b1082a43fd60015db4f5f'<a href='https://htmlcontactbox.com'>Contact Box is loading...</a></div>
+    <footer id="footer" class="correct-position">
+				<h4>Contáctanos</h4><!-- start Contact Box -->
+				<script data-sil-id='592b1082a43fd60015db4f5f'> (function() {var d = document, w = window, l = window.location,p = l.protocol == 'file:' ? 'http://' : '//';if (!w.WS) w.WS = {}; c = w.WS;var m=function(t, o){  var e = d.getElementsByTagName('script'); e=e[e.length-1];  var n = d.createElement(t); if (t=='script') {n.async=true;} for (k in o) n[k] = o[k];  e.parentNode.insertBefore(n, e)};   m('script', {      src: p+'bawkbox.com/widget/contact/592b1082a43fd60015db4f5f?page='+encodeURIComponent(l+''),      type: 'text/javascript'  });  c.load_net = m;})();</script><div class='sil-widget-contact sil-widget' id='sil-widget-592b1082a43fd60015db4f5f'<a href='https://htmlcontactbox.com'>Contact Box is loading...</a></div>
 <!-- end Contact Box -->
   	</footer>
 		<script type="text/javascript" src="./js/main.js"></script>
