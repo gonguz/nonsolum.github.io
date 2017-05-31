@@ -12,6 +12,16 @@
   height: 100%;
 }
 
+.down-logo{
+  position: relative;
+  text-align: center;
+  left: 550px;
+  top: 210px;
+  margin: auto;
+  padding: 15px 15px;
+
+}
+
 .navbar-link {
   vertical-align: top;
   height: 100%;
@@ -50,6 +60,11 @@ header {
   position: absolute;
 }
 
-header img {
-  height: 60px
+.tam-tren{
+  height: 60px;
+}
+
+.tam-down{
+  height: 80%;
+  width: 80%;
 }
